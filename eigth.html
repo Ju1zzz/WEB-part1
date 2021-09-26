@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 </head>
 
 <body>
@@ -22,6 +22,7 @@
             padding: 0.5rem;
             flex-basis: 200px;
             height: 200px;
+            background-color: aqua;
         }
 
         .column {
@@ -30,6 +31,7 @@
             margin: 0.5em;
             padding: 0.5em;
         }
+
         .animals {
             margin: 0.25rem;
             padding: 0.5rem;
@@ -38,13 +40,13 @@
     </style>
     <div class="container">
         <div class="row">
-            <div class="block col-auto  mb-1 d-flex align-items-end flex-row-reverse  border">
+            <div class="block col-auto flex-column mb-1 d-flex align-items-end flex-row-reverse  border">
                 <div class="animals">
                     <i class="fas fa-2x fa-dog"></i>
                 </div>
             </div>
 
-            <div class="col-auto block mb-1 d-flex align-items-end justify-content-around border">
+            <div class="col-auto block flex-column mb-1 d-flex align-items-end justify-content-around border">
                 <div class="animals">
                     <i class="fas fa-2x fa-dog"></i>
                 </div>
@@ -53,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="col-auto block mb-1 d-flex align-items-start justify-content-between border">
+            <div class="col-auto block mb-1 flex-column d-flex align-items-start justify-content-between border">
                 <div class="animals">
                     <i class="fas fa-2x fa-cat"></i>
                 </div>
@@ -62,7 +64,7 @@
                 </div>
             </div>
 
-            <div class="col-auto block mb-1 d-flex align-items-start justify-content-end border">
+            <div class="col-auto block mb-1 flex-column d-flex align-items-start justify-content-end border">
                 <div class="animals">
                     <i class="fas fa-2x fa-dog"></i>
                 </div>
@@ -83,7 +85,8 @@
                     <i class="fas fa-2x fa-cat"></i>
                 </div>
             </div>
-            <div class="col-auto block  mb-1 d-flex align-items-center flex-column justify-content-center border" style="flex-basis: 409px;">
+            <div class="col-auto block  mb-1 d-flex align-items-center flex-column justify-content-center border"
+                style="flex-basis: 409px;">
                 <div class="animals">
                     <i class="fas fa-2x fa-dog"></i>
                 </div>
@@ -111,7 +114,7 @@
                     <i class="fas fa-2x fa-cat"></i>
                 </div>
             </div>
-            <div class="col-auto mb-1 block justify-content-between border">
+            <div class="col-auto mb-1 block d-flex flex-column border">
                 <div class="animals">
                     <i class="fas fa-2x fa-dog"></i>
                 </div>
@@ -122,9 +125,12 @@
                     <i class="fas fa-2x fa-cat"></i>
                 </div>
             </div>
-            <div class="col-auto block mb-1 d-flex align-items-center flex-column border">
+            <div class="col-auto block mb-1 d-flex justify-content-around flex-column border">
                 <div class="animals">
-                    <i class="fas fa-2x fa-dog"></i>
+                    <i class="fas fa-2x fa-cat"></i>
+                </div>
+                <div class="animals">
+                    <i class="fas fa-2x fa-kiwi-bird"></i>
                 </div>
             </div>
         </div>
