@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .row {
+            display: flex;
+            flex-grow: 0;
+        }
+
+        .block {
+            margin: 0.25rem;
+            padding: 0.5rem;
+            display: flex;
+            flex-basis: 200px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            margin: 0.5em;
+            padding: 0.5em;
+        }
+        .animals {
+            margin: 0.25rem;
+            padding: 0.5rem;
+            border: 1px solid black;
+        }
+    </style>
+
+    <div class="row">
+        <div class="block" style="align-items: flex-end;justify-content: flex-end; background: linear-gradient(#5fd1e0, #3982b3, #e9d563);">
+
+            <div class="animals">
+                <i class="fas fa-2x fa-dog"></i>
+            </div>
+
+        </div>
+
+        <div class="block"
+            style="align-items: flex-end;justify-content: space-evenly;background: linear-gradient(#5fd1e0, #3982b3, #e9d563);">
+            <div class="animals">
+                <i class="fas fa-2x fa-dog"></i>
+            </div>
+            <div class="animals">
+                <i class="fas fa-2x fa-dog"></i>
+            </div>
+        </div>
+
+
+        <div class="block"
+            style="align-items: flex-start;justify-content: space-around;background: linear-gradient(#5fd1e0, #3982b3, #e9d563);">
+            <div class="animals">
+                <i class="fas fa-2x fa-dog"></i>
+            </div>
+            <div class="animals">
+                <i class="fas fa-2x fa-dog"></i>
+            </div>
+        </div>
+        <div class="block"
+            style="align-items: flex-start;justify-content:flex-end;background: linear-gradient(#5fd1e0, #3982b3, #e9d563);">
+            <div class="animals">
+                <i class="fas fa-2x fa-dog"></i>
+            </div>
+            <div class="animals">
+                <i class="fas fa-2x fa-dog"></i>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="block"
+                style="align-items: flex-end;justify-content:center; background: linear-gradient(#ece251, #cab819, #db9d29);">
+
+                <div class="animals">
+                    <i class="fas fa-2x fa-dog"></i>
+                </div>
+                <div class="animals">
+                    <i class="fas fa-2x fa-cat"></i>
+                </div>
+
+                <div class="animals">
+                    <i class="fas fa-2x fa-kiwi-bird"></i>
+                </div>
+
+            </div>
+
+            <div class="block"
+                style="align-items: center;justify-content:center;flex-basis:425px;  background: linear-gradient(#ece251, #cab819, #db9d29);">
+                <div class="animals">
+                    <i class="fas fa-2x fa-dog"></i>
+                </div>
+                <div class="animals">
+                    <i class="fas fa-2x fa-cat"></i>
+                </div>
+            </div>
+
+            <div class="block "
+                style="align-items: flex-start;justify-content:flex-start; background: linear-gradient(#ece251, #cab819, #db9d29);">
+                <div class="animals">
+                    <i class="fas fa-2x fa-dog"></i>
+                </div>
+            </div> 
+    </div>
+
+    <div class="row">
+        <div class="block "
+            style="align-items: flex-end;justify-content:flex-start; background: linear-gradient(#d37f01, #bb4f07, #c71e08);">
+            <div class="animals">
+                <i class="fas fa-2x fa-dog"></i>
+            </div>
+        </div>
+
+        <div class="block" style=" flex-direction: column;background: linear-gradient(#d37f01, #bb4f07, #c71e08);">
+            <div class="animals">
+                <i class="fas fa-2x fa-dog"></i>
+            </div>
+            <div class="animals">
+                <i class="fas fa-2x fa-cat"></i>
+            </div>
+        </div>
+
+        <div class="block" style="justify-content:space-evenly;flex-direction: column;background: linear-gradient(#d37f01, #bb4f07, #c71e08);">
+            <div class="animals">
+                <i class="fas fa-2x fa-dog"></i>
+            </div>
+            <div class="animals">
+                <i class="fas fa-2x fa-cat"></i>
+            </div>
+
+            <div class="animals">
+                <i class="fas fa-2x fa-kiwi-bird"></i>
+            </div>
+        </div>
+
+        <div class="block " style="justify-content: space-evenly; background: linear-gradient(#d37f01, #bb4f07, #c71e08);">
+            <div class="animals">
+                <i class="fas fa-2x fa-dog"></i>
+            </div>
+            <div class="animals">
+                <i class="fas fa-2x fa-cat"></i>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

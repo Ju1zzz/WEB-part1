@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra coronavirus news</title>
+</head>
+
+<body>
+    <h1>Как работает вакцина от ковида?</h1>
+    <div class="p1 borderedP">
+        Когда иммунитет впервые знакомится с вакциной, он запускает работу двух видов <span
+            class="bordered adjective">иммунных</span>
+        клеток: В и Т-типа. В-клетки активно вырабатывают антитела, но без <span class="bordered adjective">второй</span> дозы
+        вакцины уже через несколько недель
+        количество этих иммуноглобулинов резко сокращается. <span class="difficult">Т-лимфоциты</span> – главное оружие
+        <span class="bordered adjective">иммунной</span>
+        системы. Именно эти клетки находят опасность и уничтожают патоген. <span class="bordered adjective">Главная</span>
+        проблема <span class="difficult">Т-клеток </span>в том, что после <span class="bordered adjective">первого</span> этапа
+        вакцинации
+        <span class="bordered adjective">иммунная</span> система создает очень <span class="bordered adjective">малое</span>
+        количество Т-лимфоцитов, и организм остается <span class="bordered adjective">неподготовленным
+        </span>к встрече с вирусом.
+    </div>
+
+    <div class="p2 borderedP">
+        <span class="bordered adjective"> Вторая – бустерная</span> – доза вакцины запускает <span class="bordered adjective">вторую
+        </span>
+        часть <span class="bordered adjective">иммунного </span>ответа, в результате чего организм
+        вырабатывает
+        больше <span class="difficult">Т-клеток </span> и формирует <span class="bordered adjective">долгосрочную иммунную</span>
+        память.
+        Этот процесс также «тренирует» В-клетки быстрее реагировать
+        на вирусное вторжение, скорее делиться и вырабатывать более эффективные антитела.
+    </div>
+
+    <div class="p3 borderedP">
+        Результаты <span class="bordered adjective">крупных медицинских</span> исследований всех имеющихся
+        на <span class="bordered adjective">сегодняшний</span> день вакцин от COVID-19, показывают,
+        что <span class="bordered adjective">вторая</span> доза увеличивает степень защиты в несколько раз.
+        <span class="bordered adjective" style="background: rgb(150, 223, 90); border: 1px solid black;">Израильские</span>
+        ученые пришли к выводу, что уровень антител
+        у пациентов, получивших обе дозы вакцины от коронавируса, в 6-12 раз выше, чем у тех, кто привился разово.
+        Как мы видим, <span class="bordered adjective">второй</span> этап вакцинации принципиально важен для <span
+            class="bordered adjective">надежной</span> защиты.
+    </div>
+    <style>
+        .adjective {
+            background: rgb(227, 122, 253);
+            transition: 200ms;
+        }
+
+        .difficult {
+            padding: 3px;
+            background: rgb(225, 0, 255);
+        }
+
+        .adjective:hover {
+            background: rgb(252, 255, 51);
+            cursor: pointer;
+            border-width: 6px;
+            padding: 10px;
+        }
+
+        .p1 {
+            background-color: #2472a7;
+            transition: 200ms;
+            text-align: center;
+            display: inline block;
+        }
+
+        .p2 {
+            background-color: #00a550;
+            width: 500px;
+            text-align: right;
+            display: inline block;
+        }
+
+        .p3 {
+            background: linear-gradient(#018a43, #0fdf66, #40ff10);
+            width: 50%;
+            text-align: left;
+            display: inline block;
+        }
+
+        .p1:hover {
+            background-color: #df2993;
+        }       
+        .p1 .adjective {
+            background: #3aa724;
+        }
+        .p2:hover .adjective {
+            background: red;
+        }
+        .p1:hover .adjective:hover {
+            background: rgb(179, 255, 0);
+        }
+        .p2:hover .adjective:hover {
+            background: rgb(0, 255, 255);
+        }
+        .p3:hover .adjective:hover {
+            background: rgb(245, 77, 222);
+        }
+        .borderedP {
+            margin: 16px;
+            padding: 8px;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgb(179, 0, 125);
+        }
+        .bordered{
+            margin: 3px;
+            padding: 2px;
+            border-radius: 3px;
+            box-shadow: 0 0 3px rgb(26, 241, 206);
+        }
+        .p1.borderedP {
+            margin: 16px 0;
+            border-width: 60px;
+            border:  3px dashed red;
+        }
+        .p2.borderedP {
+            margin: 10px 0;
+            border-width: 6px;
+            border: 4px green;
+        }
+        .p3.borderedP {
+            margin: 16px 0;
+            border-width: 12px;
+            border: 3px blue;
+        }
+    </style>
+</body>
+
+</html>

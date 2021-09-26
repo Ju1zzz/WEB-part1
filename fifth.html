@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <title>Drawing</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="block" style="flex-grow: 0; text-align: center; flex-basis: auto; background: linear-gradient(#e8fa4b, #eebf3f, #07add6);">
+            <div style="text-align: start;">We were going to travel </div>
+            <i class="fas fa-map-marked-alt fa-4x"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;Backpacks were packed and car was ready 
+            <div style="text-align: right;"><i class="fas fa-caravan fa-4x"> </i></div>
+        </div>
+        <div class="block" style="flex-grow:2; ">
+            There were three of us...
+            <i class="fas fa-hiking fa-4x"></i>
+            <div style="text-align: center;"><i class="fas fa-hiking fa-4x"></i><i class="fas fa-hiking fa-4x"></i></div>
+        </div>
+
+        <div class="block" style="flex-grow: 0; flex-basis: auto;"> 
+            <i class="fas fa-mountain fa-2x"></i>
+            <i class="fas fa-mountain fa-4x"></i>
+            <i class="fas fa-mountain fa-6x"></i>
+        </div>
+    </div>
+    <div class="row">
+        <div class="block" style="flex-grow:0;flex-basis: auto;"><i class="far fa-compass fa-6x"></i>"We got lost..."</div>
+        <div class="block forest" style="flex-grow:0;flex-basis: auto;">
+            <i class="fas fa-tree fa-4x" ></i>
+            <i class="fas fa-tree fa-2x"></i>
+            
+            <div style="text-align: end;">
+                <i class="fas fa-tree fa-4x"></i>
+                <i class="fas fa-tree fa-2x" ></i></div>
+        </div>
+        <div class="block forest" style="flex-grow:0;flex-basis: auto;">
+            <i class="fas fa-tree fa-4x" ></i>
+            <i class="fas fa-tree fa-2x"></i>
+            <div style="text-align: start;">
+            <i class="fas fa-tree fa-4x"></i>
+            <i class="fas fa-tree fa-2x" ></i></div>
+            <div style="text-align: end;">
+                <i class="fas fa-tree fa-4x"></i>
+                <i class="fas fa-tree fa-2x" ></i></div>
+        </div>
+        <div class="block forest" style="flex-grow:0;flex-basis: auto;">
+            <i class="fas fa-tree fa-2x"></i>
+            <i class="fas fa-tree fa-6x"></i>
+        </div>
+        <div class="block water" >
+            
+            <div style="text-align: start;"><i class="fas fa-water fa-4x"></i></div>
+            <div style="text-align: center;"><i class="fas fa-fish fa-4x"></i></div>
+            <div style="text-align: end;"><i class="fas fa-water fa-4x"></i></div>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="block night" style="text-align: right; flex-grow: 0; flex-basis: auto;">
+            ...Night
+            <i class="fas fa-cloud-moon fa-4x"></i>
+        </div>
+        <div class="block" style="flex-grow: 2; text-align: center;">
+            <i class="fas fa-dragon fa-4x"></i>
+            "Oh, no! It's dragon!"
+            <i class="fas fa-fire fa-4x"></i>
+            <i class="fas fa-campground fa-4x"></i>
+        </div>
+        <div class="block">
+            No camping ever
+            <i class="fas fa-running fa-4x"></i>
+            <i class="fas fa-running fa-4x"></i>
+            <i class="fas fa-running fa-4x"></i>
+        </div>
+    </div>
+
+    <style>
+        .block {
+            border: 1px solid black;
+            margin-bottom: 0.5rem;
+            margin: 0.25rem;
+            padding: 0.5rem;
+            flex-grow: 1;
+            flex-basis: 0;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .forest {
+            background: rgb(44, 160, 44);
+        }
+        .water{
+            background: linear-gradient(#0ba3b8, #0f69df, #2f02d3);
+        }
+        .night{
+            background: rgb(46, 46, 121);
+        }
+    </style>
+
+</body>
+
+</html>
