@@ -14,21 +14,16 @@
             flex-grow: 0;
         }
 
-        .block {
-            margin: 0.25rem;
-            padding: 0.5rem;
-            display: flex;
-            flex-basis: 200px;
-            height: 200px;
-            display: flex;
-            flex-direction: column;
-        }
-
         .column {
+            justify-content: center;
+            align-items: center;
             display: flex;
             flex-direction: column;
             margin: 0.5em;
-            padding: 0.5em;
+            padding: 00.5em;
+            height: 200px;
+            flex-basis: 200px;
+            background-color: rgb(109, 77, 228)
         }
         .animals {
             margin: 0.25rem;
@@ -38,7 +33,7 @@
     </style>
 
     <div class="row">
-        <div class="block" style="align-items: flex-end;justify-content: flex-end; background: linear-gradient(#5fd1e0, #3982b3, #e9d563);">
+        <div class="column" style="align-items: flex-end;justify-content: flex-end; background: linear-gradient(#5fd1e0, #3982b3, #e9d563);">
 
             <div class="animals">
                 <i class="fas fa-2x fa-dog"></i>
@@ -46,7 +41,7 @@
 
         </div>
 
-        <div class="block"
+        <div class="column"
             style="align-items: flex-end;justify-content: space-evenly;background: linear-gradient(#5fd1e0, #3982b3, #e9d563);">
             <div class="animals">
                 <i class="fas fa-2x fa-dog"></i>
@@ -57,7 +52,7 @@
         </div>
 
 
-        <div class="block"
+        <div class="column"
             style="align-items: flex-start;justify-content: space-around;background: linear-gradient(#5fd1e0, #3982b3, #e9d563);">
             <div class="animals">
                 <i class="fas fa-2x fa-cat"></i>
@@ -66,7 +61,7 @@
                 <i class="fas fa-2x fa-kiwi-bird"></i>
             </div>
         </div>
-        <div class="block"
+        <div class="column"
             style="align-items: flex-start;justify-content:flex-end;background: linear-gradient(#5fd1e0, #3982b3, #e9d563);">
             <div class="animals">
                 <i class="fas fa-2x fa-dog"></i>
@@ -77,7 +72,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="block"
+        <div class="column"
                 style="align-items: flex-end;justify-content:center; background: linear-gradient(#ece251, #cab819, #db9d29);">
 
                 <div class="animals">
@@ -93,7 +88,7 @@
 
             </div>
 
-            <div class="block"
+            <div class="column"
                 style="align-items: center;justify-content:center;flex-basis:425px;  background: linear-gradient(#ece251, #cab819, #db9d29);">
                 <div class="animals">
                     <i class="fas fa-2x fa-dog"></i>
@@ -103,7 +98,7 @@
                 </div>
             </div>
 
-            <div class="block "
+            <div class="column "
                 style="align-items: flex-start;justify-content:flex-start; background: linear-gradient(#ece251, #cab819, #db9d29);">
                 <div class="animals">
                     <i class="fas fa-2x fa-dog"></i>
@@ -112,14 +107,14 @@
     </div>
 
     <div class="row">
-        <div class="block "
+        <div class="column "
             style="align-items: flex-end;justify-content:flex-start; background: linear-gradient(#d37f01, #bb4f07, #c71e08);">
             <div class="animals">
                 <i class="fas fa-2x fa-dog"></i>
             </div>
         </div>
 
-        <div class="block" style=" flex-direction: column;background: linear-gradient(#d37f01, #bb4f07, #c71e08);">
+        <div class="column" style=" flex-direction: column;background: linear-gradient(#d37f01, #bb4f07, #c71e08);">
             <div class="animals">
                 <i class="fas fa-2x fa-dog"></i>
             </div>
@@ -128,7 +123,7 @@
             </div>
         </div>
 
-        <div class="block" style="justify-content:space-evenly;flex-direction: column;background: linear-gradient(#d37f01, #bb4f07, #c71e08);">
+        <div class="column" style="justify-content:space-evenly;flex-direction: column;background: linear-gradient(#d37f01, #bb4f07, #c71e08);">
             <div class="animals">
                 <i class="fas fa-2x fa-dog"></i>
             </div>
@@ -141,7 +136,7 @@
             </div>
         </div>
 
-        <div class="block " style="justify-content: space-evenly; background: linear-gradient(#d37f01, #bb4f07, #c71e08);">
+        <div class="column " style="justify-content: space-evenly; background: linear-gradient(#d37f01, #bb4f07, #c71e08);">
             <div class="animals">
                 <i class="fas fa-2x fa-dog"></i>
             </div>
