@@ -25,10 +25,10 @@
         }
 
         .text {
-            height: 250px;
-            width: 250px;
-            border: 1px solid silver;
+            height: auto;
+            width: 350px;
             margin: 8px;
+            border: 1px solid green;
             text-align: center;
             padding: 10px;
         }
@@ -42,18 +42,40 @@
                     alt="Леголас">
             </div>
             <div style="font-size: 2em;">Леголас</div>
-            <div>эльф</div>
+            <div><strong>эльф</strong></div>
         </div>
-        <div style="display: flex; justify-content: start;">
+        <div style="border:1px solid orchid;">
             <div class="text">
-                Нам всем тяжело. Всем, кто живет в наше смутное время. Каждый из нас обречен на потери. Но тебя-то не
-                назовешь
-                бедным и несчастным: ты не потерял самого себя — а это самая горькая потеря. В тяжелое мгновение ты
-                остался с друзьями — и ничем не
-                замутненная память о счастье будет тебе пожизненной наградой.
+                <em> Нам всем тяжело. Всем, кто живет в наше смутное время. Каждый из нас обречен на потери. Но
+                    тебя-то не
+                    назовешь
+                    бедным и несчастным: ты не потерял самого себя — а это самая горькая потеря. В тяжелое мгновение
+                    ты
+                    остался с друзьями — и ничем не
+                    замутненная память о счастье будет тебе пожизненной наградой.
+                </em>
             </div>
-            <div style="font-size: 2em; justify-content: end;"><i class="fas fa-bahai fa-spin"></i></div>
+            <div class="row" style="display: flex;">
+                <div  style="display: flex; flex-direction: row; justify-content: flex-start; align-items: center;  margin: 10px;">
+                    <div style="font-size: 2em;">
+                        Количество стрел
+                        <br> Сила
+                        <br> Обаяние
+                        <br> Ловкость
+                    </div>
+                </div>
+                <div style="display: flex; flex-direction:row; justify-content: flex-end; align-items: center;  margin: 10px;">
+                    <div style="font-size: 2em;">
+                        <i class="fas fa-infinity"></i>
+                        <br> 120
+                        <br>150
+                        <br><i class="fas fa-bahai fa-spin"></i>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+
 </body>
 
 </html>
